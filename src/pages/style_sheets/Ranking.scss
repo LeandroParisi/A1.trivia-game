@@ -1,0 +1,36 @@
+@import '../../visual_identity/general_styles/flex_boxes.scss';
+@import '../../visual_identity/general_styles/color.scss';
+
+
+.default-page.ranking-page {
+  height: 100%;
+
+  & .ranking-table {
+    @include flexCenter(row);
+    flex-wrap: wrap;
+
+    & .ranking-element {
+      @include flexCenter(column);
+      width: 25vw;
+      height: 25vh;
+      margin: 5vh 0;
+      border: 2.5px inset $darkGreen;
+      border-radius: 10px;
+      background-color: $darkBlue;
+      color: white;
+    }
+  }
+
+  & .ranking-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    @include flexCenter(column);
+
+    & button {
+      border-radius: 100%;
+      font-size: calc(1rem + 0.8vw);
+    }
+  }
+}
+

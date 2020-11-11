@@ -1,14 +1,13 @@
 import React from 'react';
 import md5 from 'crypto-js/md5';
-import '../pages/style_sheets/Ranking.css';
 
 const TableRank = (players) => (
   <table>
-    <tbody>
+    <tbody className="ranking-table">
       {players
         .sort((a, b) => b.score - a.score)
         .map((player, index) => (
-          <tr key={ index } className="ranking-elements">
+          <tr key={ index } className="ranking-element">
             <th>
               <img src={ `https://www.gravatar.com/avatar/${md5(player.gravatarEmail)}` } alt={ player.name } />
             </th>
