@@ -2,6 +2,7 @@
   "name": "trivia-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://leandroparisi.github.io/A1.trivia-game/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
@@ -29,7 +30,6 @@
     "eject": "react-scripts eject",
     "test-coverage": "react-scripts test --coverage --watchAll=false",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json .",
-    "homepage": "https://leandroparisi.github.io/A1.trivia-game/",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
