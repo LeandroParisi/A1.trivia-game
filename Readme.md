@@ -7,7 +7,7 @@ An application that allows the user to play a simple trivia game, using Redux to
 
 <hr />
 
-## Project Screen Shot(s)
+## Demonstration:
 <img src="https://github.com/LeandroParisi/A1.trivia-game/blob/main/Demonstration.gif" alt="App demonstration" width="1100px" >
 
 <hr />
