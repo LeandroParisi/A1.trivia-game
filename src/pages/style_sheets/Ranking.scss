@@ -3,8 +3,6 @@
 
 
 .default-page.ranking-page {
-  height: 100%;
-
   & .ranking-table {
     @include flexCenter(row);
     flex-wrap: wrap;
